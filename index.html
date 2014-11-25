@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="HTML5 SQLite Example">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5 SQLite Example</title>
+        <script src="assets/js/main.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body onload="init();">
+        <form type="post" onsubmit="addTodo(); return false;">
+        	<input type="text" id="todo" name="todo" placeholder="habis ini mau bikin apa lagi?">
+        	<input type="submit" value="Tambah">
+        </form>
+
+        <ul id="todoItems"></ul>
+    </body>
+</html>
